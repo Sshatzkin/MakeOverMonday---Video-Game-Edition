@@ -1,0 +1,33 @@
+
+a {
+  cursor: pointer;
+}
+
+html,
+body {
+  background: indigo;
+  font-family: Verdana, Geneva, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#title, #subtitle{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #ADFF2F;
+  text-shadow: 4px 4px black;
+}
+
+.plot-label, .key-text{
+  fill: black;
+}
+
+#app{
+  text-align: center;
+}
+
+svg{
+  display: inline-block;
+}
